@@ -1,0 +1,9 @@
+{
+  "name": "react-util",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/react-util/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project react-util --web",
+  "targets": {}
+}

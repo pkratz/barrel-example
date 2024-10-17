@@ -1,0 +1,19 @@
+{
+  "name": "cart-service",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/cart-service/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/vite:build",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/cart-service",
+        "main": "packages/cart-service/src/index.ts",
+        "tsConfig": "packages/cart-service/tsconfig.lib.json",
+        "assets": ["packages/cart-service/*.md"]
+      }
+    }
+  }
+}
