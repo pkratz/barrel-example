@@ -19,6 +19,7 @@
       "@kratz/core-ui": ["packages/core-ui/src/index.ts"],
       "@kratz/inventory-service": ["packages/inventory-service/src/index.ts"],
       "@kratz/react-util": ["packages/react-util/src/index.ts"],
+      "@kratz/redux": ["packages/redux/src/index.ts"],
       "@kratz/security": ["packages/security/src/index.ts"]
     }
   },

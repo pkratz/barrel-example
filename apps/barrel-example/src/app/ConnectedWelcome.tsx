@@ -1,7 +1,7 @@
 import { useUserContext } from '@kratz/security';
-import { Typography } from '@kratz/core-ui';
+import { Welcome } from './Welcome';
 
-export function Welcome() {
+export function ConnectedWelcome() {
   const { user } = useUserContext();
-  return <Typography>Welcome, {user?.username}</Typography>;
+  return <Welcome name={user?.username ?? ''} />;
 }
